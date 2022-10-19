@@ -39,7 +39,7 @@ def getBestNeighbor(tsp, neighbors):
     return bestNeighbor, bestRouteLength
 
 
-def genetic_algorithmgit(tsp):
+def genetic_algorithm(tsp):
     currentSolution = randomSolution(tsp)
     currentRouteLength = routeLength(tsp,currentSolution)
     neighbors = getNeighbors(currentSolution)
